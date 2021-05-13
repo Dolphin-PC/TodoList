@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity, TextPropTypes } from 'react-native';
 
 export default function Task(props) {
   return (
@@ -13,6 +13,8 @@ export default function Task(props) {
     </View>
   );
 }
+
+
 
 const styles = StyleSheet.create({
     item: {
